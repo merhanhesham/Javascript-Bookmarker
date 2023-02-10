@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container h2{
+    border-bottom: solid black 1px;
+    padding-bottom: 40px;
+    color: #AAAAAA;
+    font-weight: bold;
+}
+.container .content{
+    background-color: #EEEEEE;
+    width:96%;
+    padding: 20px 0;
+    margin-bottom: 25px;
+   
+}
+.content *{
+    margin: 15px 0;
+}
+.container button:hover{
+    box-shadow: 10px 10px 11px -3px rgba(0,0,0,0.71);
+}
+
+.container .siteContent{
+    
+    width:96%;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#EEE,#FFF);
+}
