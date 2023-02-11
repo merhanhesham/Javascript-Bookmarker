@@ -28,3 +28,10 @@ body{
     margin-bottom: 20px;
     background-image: linear-gradient(#EEE,#FFF);
 }
+
+.bottom{
+    border-top: solid black 1px;
+    padding-top: 20px;
+    color: #AAAAAA;
+    font-weight: bold;
+}
