@@ -50,6 +50,10 @@ function clear() {
 function deleteSite(index) {
 
     allSites.splice(index, 1);
+    var data=[];
+    data=JSON.parse(localStorage.getItem('All Sites'));
+    data.splice(index,1);
+    localStorage.setItem('All Sites',JSON.stringify(data));
     displaySites();
 }
 
